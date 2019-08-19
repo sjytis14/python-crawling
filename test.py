@@ -1,7 +1,7 @@
 from selenium import webdriver
 import time
 
-driver = webdriver.Chrome('C:/Users/YunTaek/Downloads/chromedriver_win32/chromedriver.exe')
+driver = webdriver.Chrome('')
 driver.get('https://news.naver.com/main/ranking/popularDay.nhn?rankingType=popular_day&sectionId=103&date=20190526')
 data = []
 time.sleep(2)
